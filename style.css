@@ -15,6 +15,7 @@ html {
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
+    color: #808080b8;
 }
 
 *,
@@ -28,11 +29,11 @@ body {
   }
 
 .container {
-    height: 98vh;
+    height: 98vh ;
     display: grid;
     grid-template-columns: 1fr 6fr 3fr;
-    grid-template-rows: 1fr 5fr 5fr 1fr;
-    grid-gap: 20px;
+    grid-template-rows: 1fr 10fr 1fr;
+    /* grid-gap: 20px; */
 }
 
 .item {
@@ -40,8 +41,8 @@ body {
     background-color: white;
     justify-content: center;
     align-items: center;
-    border: 5px solid rgba(192, 192, 192, 0.5);
-    border-radius: 3px;
+    /* border: 5px solid rgba(192, 192, 192, 0.5);
+    border-radius: 3px; */
     font-size: 35px;
 }
 
@@ -49,16 +50,24 @@ body {
     margin: 0, 0, 5px, 0;
 }
 
-.title {
+#title {
     font-family: "HouseSlant";
     font-size: 10em;
     color: white;
-    background-color: black;
-    padding-left: 20px;
+    padding-left: 25px;
+    justify-content: left;
+    line-height: 0.8em;
 }
 
-.not_title {
-    color: gray;
-    font-size: 0.5em;
-    padding-left: 15px;
+.left {
+    background-color: black;
+}
+
+#blurb,
+#menu {
+    font-size: 18pt;
+}
+
+.noun {
+    font-size: 12pt;
 }
