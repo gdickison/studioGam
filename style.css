@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "HouseSlant";
+    src: url("resources/fonts/HouseSlant-Regular.otf"),
+        url("resources/fonts/HouseSlant.woff"),
+        url("resources/fonts/HouseSlant.woff2");
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("url('https://fonts.googleapis.com/css?family=Rubik:300,400&display=swap')");
+}
+
+html {
+    background-color: rgb(66, 135, 245);
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  }
+
+.container {
+    height: 98vh;
+    display: grid;
+    grid-template-columns: 1fr 6fr 3fr;
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-gap: 20px;
+}
+
+.item {
+    display: grid;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(192, 192, 192, 0.5);
+    border-radius: 3px;
+    font-size: 35px;
+}
+
+.item p {
+    margin: 0, 0, 5px, 0;
+}
+
+.title {
+    font-family: "HouseSlant";
+    font-size: 10em;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+}
+
+.not_title {
+    color: gray;
+    font-size: 0.5em;
+    padding-left: 15px;
+}
