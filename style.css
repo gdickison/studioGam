@@ -65,9 +65,20 @@ body {
 
 #blurb,
 #menu {
-    font-size: 18pt;
+    font-size: 18px;
+}
+
+.noun,
+#blurb {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .noun {
-    font-size: 12pt;
+    font-size: 12px;
+    justify-content: left;
+}
+
+#melville {
+    padding-top: 5px;
 }
