@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "Rubik";
-    src: url("url('https://fonts.googleapis.com/css?family=Rubik:300,400&display=swap')");
+    src: url("url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400&display=swap')");
 }
 
 html {
@@ -31,7 +31,7 @@ body {
 .container {
     height: 98vh ;
     display: grid;
-    grid-template-columns: 1fr 6fr 3fr;
+    grid-template-columns: 1fr 6fr repeat(3, 1fr);
     grid-template-rows: 1fr 10fr 1fr;
     /* grid-gap: 20px; */
 }
@@ -50,13 +50,17 @@ body {
     margin: 0, 0, 5px, 0;
 }
 
-#title {
+#company {
     font-family: "HouseSlant";
-    font-size: 10em;
+    font-size: 10.5em;
     color: white;
     padding-left: 25px;
     justify-content: left;
     line-height: 0.8em;
+}
+
+#blurb {
+    grid-column: 3 / span 3;
 }
 
 .left {
@@ -64,21 +68,36 @@ body {
 }
 
 #blurb,
-#menu {
+.menu {
     font-size: 18px;
 }
 
-.noun,
+.menu,
+#noun,
 #blurb {
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.noun {
+#noun {
     font-size: 12px;
     justify-content: left;
+    grid-column: 3 / span 3;
+    padding-bottom: 30px;
 }
 
-#melville {
-    padding-top: 5px;
+a {
+    text-decoration: none;
+    color: #808080b8;
+}
+
+#title {
+    font-style: italic;
+}
+
+.notyet {
+    font-family: "HouseSlant";
+    color: white;
+    font-size: 10em;
+    text-align: center;
 }
