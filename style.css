@@ -91,6 +91,10 @@ a {
     color: #808080b8;
 }
 
+#quote {
+    margin-bottom: 15px;
+}
+
 #title {
     font-style: italic;
 }
