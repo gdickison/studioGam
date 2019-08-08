@@ -44,10 +44,9 @@ body {
 }
 
 img {
+    height: 100%;
     width: auto;
-    height: 50%;
-    position: relative;
-    align-content: center;
+    place-self: center;
 }
 
 .item {
@@ -71,6 +70,10 @@ img {
     padding-left: 25px;
     justify-content: left;
     line-height: 0.8em;
+}
+
+.corner-title {
+    font-family: "HouseSlant";
 }
 
 #blurb {
