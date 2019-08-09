@@ -28,17 +28,17 @@ body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
 
-.container {
+.home-container {
     height: 100vh ;
     display: grid;
     grid-template-columns: 1fr 6fr repeat(3, 1fr);
-    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-rows: 140px 10fr 140px;
     /* grid-gap: 20px; */
 }
 
-.container2 {
+.work-container {
     display: grid;
-    grid-template-columns: 1fr 400px 400px 1fr;
+    grid-template-columns: .75fr 1fr 1fr .75fr;
     grid-template-rows: repeat(8, 400px);
     grid-gap: 10px;
 }
@@ -67,6 +67,17 @@ img {
     margin: 0, 0, 5px, 0;
 }
 
+.circle-badge-white {
+    justify-content: right;
+    max-width:100%;
+    max-height:100%;
+}
+
+.circle-badge-black {
+    justify-content: right;
+    align-content: flex-end;
+}
+
 #company {
     font-family: "HouseSlant";
     font-size: 10.5em;
@@ -76,8 +87,30 @@ img {
     line-height: 0.8em;
 }
 
-.corner-title {
+.item-corner-title {
     font-family: "HouseSlant";
+    font-size: 2em;
+    background-color: white;
+    display: flex;
+    display: block;
+}
+
+.item-corner-title a {
+    color: black;
+}
+
+.corner-title-studio {
+    margin-left: 75px;
+    padding: 0;
+    margin-bottom: 0;
+    align-content: flex-end;
+}
+
+.corner-title-gam {
+    margin-left: 75px;
+    padding: 0;
+    margin-top: 0;
+    align-content: flex-start;
 }
 
 #blurb {
@@ -86,6 +119,11 @@ img {
 
 .left {
     background-color: black;
+}
+
+.menu {
+    align-content: flex-start;
+    padding-top: 40px;
 }
 
 #blurb,
