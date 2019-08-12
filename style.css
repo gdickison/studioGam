@@ -47,6 +47,10 @@ a {
     display: grid;
 }
 
+.work-item {
+    transition: 0.3s;
+}
+
 .work-item:hover {
     background: lightgray;
 }
@@ -101,6 +105,7 @@ img {
 
 .item-corner-title a {
     color: black;
+    transition: 0.3s;
 }
 
 .item-corner-title a:hover {
@@ -137,6 +142,10 @@ img {
 #blurb,
 .menu {
     font-size: 18px;
+}
+
+.menu a {
+    transition: 0.3s;
 }
 
 .menu a:hover {
