@@ -103,6 +103,10 @@ img {
     color: black;
 }
 
+.item-corner-title a:hover {
+    color: lightgray;
+}
+
 .corner-title-studio {
     margin-left: 75px;
     padding: 0;
@@ -133,6 +137,10 @@ img {
 #blurb,
 .menu {
     font-size: 18px;
+}
+
+.menu a:hover {
+    color: black;
 }
 
 .menu,
