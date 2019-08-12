@@ -47,6 +47,10 @@ a {
     display: grid;
 }
 
+.work-item:hover {
+    background: lightgray;
+}
+
 img {
     place-self: center;
     width: 240px;
