@@ -51,8 +51,9 @@ a {
     transition: 0.3s;
 }
 
-.work-item:hover {
-    background: lightgray;
+.work-item:hover,
+.item-corner-title a:hover {
+    filter: invert(0.5) sepia(1) hue-rotate(200deg) grayscale(100%);
 }
 
 img {
@@ -106,10 +107,6 @@ img {
 .item-corner-title a {
     color: black;
     transition: 0.3s;
-}
-
-.item-corner-title a:hover {
-    color: lightgray;
 }
 
 .corner-title-studio {
