@@ -27,6 +27,7 @@ html {
 }
 
 body {
+    font-family: 'Work Sans', sans-serif;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
 
@@ -86,7 +87,7 @@ img {
 }
 
 #company {
-    font-family: "HouseSlant";
+    font-family: 'Work Sans', sans-serif;
     font-size: 10.5em;
     color: white;
     padding-left: 25px;
@@ -95,7 +96,7 @@ img {
 }
 
 .item-corner-title {
-    font-family: "HouseSlant";
+    font-family: 'Work Sans', sans-serif;
     font-size: 2em;
     background-color: white;
     display: flex;
@@ -127,6 +128,7 @@ img {
 
 .left {
     background-color: black;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .menu {
@@ -175,7 +177,7 @@ a {
 }
 
 .notyet {
-    font-family: "HouseSlant";
+    font-family: 'Work Sans', sans-serif;
     color: white;
     font-size: 10em;
     text-align: center;
