@@ -1,24 +1,10 @@
-@font-face {
-    font-family: "HouseSlant";
-    src: url("resources/fonts/HouseSlant-Regular.otf"),
-        url("resources/fonts/HouseSlant.woff"),
-        url("resources/fonts/HouseSlant.woff2");
-}
-
-@font-face {
-    font-family: "Rubik";
-    src: url("url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400&display=swap')");
-}
-
 html {
-    background-color: black;
+    /* background-color: #4f9135; */
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     color: #808080b8;
 }
-
-/* Will this work? */
 
 *,
 *:before,
@@ -34,8 +20,8 @@ body {
 .home-container {
     height: 100vh ;
     display: grid;
-    grid-template-columns: 1fr 6fr repeat(3, 1fr);
-    grid-template-rows: 140px 10fr 140px;
+    grid-template-columns: 8fr repeat(3, 1fr);
+    grid-template-rows: 1fr 6fr 1fr;
 }
 
 .work-container {
@@ -86,13 +72,25 @@ img {
     align-content: flex-end;
 }
 
-#company {
+.company {
+    grid-row: 1 / 4;
     font-family: 'Work Sans', sans-serif;
-    font-size: 10.5em;
+    font-weight: 700;
+    font-size: 11vmin;
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.2),
+            rgba(0,0,0,0.2)
+        ),
+        url("/resources/images/Artboard2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.5; */
     color: white;
     padding-left: 25px;
     justify-content: left;
-    line-height: 0.8em;
+    line-height: 1;
 }
 
 .item-corner-title {
@@ -127,7 +125,7 @@ img {
 }
 
 .left {
-    background-color: black;
+    /* background-color: #4f9135; */
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -159,7 +157,7 @@ img {
 #noun {
     font-size: 12px;
     justify-content: left;
-    grid-column: span 3;
+    grid-column: -1/2;
     padding-bottom: 30px;
 }
 
