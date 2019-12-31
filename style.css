@@ -74,7 +74,7 @@ img {
 
 .company {
     grid-row: 1 / 4;
-    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
     font-weight: 700;
     font-size: 11vmin;
     background-image:
@@ -179,4 +179,25 @@ a {
     color: white;
     font-size: 10em;
     text-align: center;
+}
+
+/***************************************************************
+These styles are subject to the following license agreement(s):
+
+http://store.typenetwork.com/cart/eula/font-bureau
+http://store.typenetwork.com/cart/eula/font-bureau
+***************************************************************/
+
+.bureaugrotcondensedbold {
+    font-family: "Bureau Grot Cond Bd";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.bureaugrotcondensedblack {
+    font-family: "Bureau Grot Cond Bla";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
 }
