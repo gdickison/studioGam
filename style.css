@@ -215,3 +215,19 @@ http://store.typenetwork.com/cart/eula/font-bureau
     font-style: normal;
     font-weight: normal;
 }
+
+/* .about {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 8fr 1fr;
+} */
+
+.the-fam {
+    height: 90vh;
+    width: auto;
+}
+
+.top-menu {
+    padding: 20px 0 20px 0;
+    font-size: 18px;
+}
