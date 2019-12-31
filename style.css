@@ -82,7 +82,7 @@ img {
             rgba(0,0,0,0.2),
             rgba(0,0,0,0.2)
         ),
-        url("/resources/images/whalers4.jpg");
+        url("resources/images/whalers4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
