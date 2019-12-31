@@ -1,19 +1,19 @@
 html {
     /* background-color: #4f9135; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     color: #808080b8;
 }
 
-*,
+/* *,
 *:before,
 *:after {
     box-sizing: inherit;
-}
+} */
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
 
@@ -175,10 +175,24 @@ a {
 }
 
 .notyet {
-    font-family: 'Work Sans', sans-serif;
-    color: white;
+    /* font-family: 'Work Sans', sans-serif; */
+    color: darkgray;
     font-size: 10em;
     text-align: center;
+}
+
+.coming-soon {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.2),
+            rgba(0,0,0,0.2)
+        ),
+        url("resources/images/tharSheBlows.jpg");
+    background-repeat: no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: -200px;
 }
 
 /***************************************************************
